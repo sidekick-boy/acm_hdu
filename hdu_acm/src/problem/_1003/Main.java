@@ -1,4 +1,4 @@
-package hdu_acm.problem.A;
+package problem._1003;
 
 import java.util.Scanner;
 

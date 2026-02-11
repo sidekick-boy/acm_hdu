@@ -1,4 +1,4 @@
-package hdu_acm.problem.Sum;
+package problem._1000;
 
 import java.util.Scanner;
 

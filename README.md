@@ -10,9 +10,9 @@
 
 | 题号 | 题目 | 路径 |
 |------|------|------|
-| - | A+B Problem | [problem/A/Main.java](hdu_acm/problem/A/Main.java) |
-| - | Sum Problem | [problem/Sum/Main.java](hdu_acm/problem/Sum/Main.java) |
-| 1002 | A + B Problem II | [problem/1002/Main.java](hdu_acm/problem/1002/Main.java) |
+| 1000 | Sum Problem | [problem/_1000/Main.java](hdu_acm/src/problem/_1000/Main.java) |
+| 1002 | A + B Problem II | [problem/_1002/Main.java](hdu_acm/src/problem/_1002/Main.java) |
+| 1003 | A+B Problem | [problem/_1003/Main.java](hdu_acm/src/problem/_1003/Main.java) |
 
 ## 目录结构
 
@@ -20,18 +20,16 @@
 
 ```
 hdu_acm/
-└── problem/       # 所有题目解答
-    ├── A/          # A+B 问题
-    │   └── Main.java
-    ├── Sum/        # 求和问题
-    │   └── Main.java
-    └── 1002/       # 大数加法问题
-        └── Main.java
+└── src/           # 源代码目录
+    └── problem/   # 所有题目解答
+        ├── _1000/ # Sum Problem - 求和问题
+        ├── _1002/ # A + B Problem II - 大数加法
+        └── _1003/ # A+B Problem - 整数加法
 ```
 
 ## 包路径规范
 
-所有题目解答使用统一的包路径规范：`hdu_acm.problem.{题号或题目名}`，避免类名冲突。
+所有题目解答使用统一的包路径规范：`problem._{题号}`，避免类名冲突。每个题目的包名以下划线+数字开头，便于排序和识别。
 
 ## 开发工具
 
