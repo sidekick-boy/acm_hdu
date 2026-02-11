@@ -12,7 +12,8 @@
 |------|------|------|
 | 1000 | Sum Problem | [problem/_1000/Main.java](hdu_acm/src/problem/_1000/Main.java) |
 | 1002 | A + B Problem II | [problem/_1002/Main.java](hdu_acm/src/problem/_1002/Main.java) |
-| 1003 | A+B Problem | [problem/_1003/Main.java](hdu_acm/src/problem/_1003/Main.java) |
+| 1003 | Max Sum | [problem/_1003/Main.java](hdu_acm/src/problem/_1003/Main.java) |
+| 1004 | Let the Balloon Rise | [problem/_1004/Main.java](hdu_acm/src/problem/_1004/Main.java) |
 
 ## 目录结构
 
@@ -24,7 +25,8 @@ hdu_acm/
     └── problem/   # 所有题目解答
         ├── _1000/ # Sum Problem - 求和问题
         ├── _1002/ # A + B Problem II - 大数加法
-        └── _1003/ # A+B Problem - 整数加法
+        ├── _1003/ # Max Sum - 最大子段和（Kadane 算法）
+        └── _1004/ # Let the Balloon Rise - 统计出现最多的颜色
 ```
 
 ## 包路径规范
