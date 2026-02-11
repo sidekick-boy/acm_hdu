@@ -23,11 +23,11 @@
 | 1018 | Big Number | [problem/_1018/Main.java](hdu_acm/src/problem/_1018/Main.java) |
 | 1019 | Least Common Multiple | [problem/_1019/Main.java](hdu_acm/src/problem/_1019/Main.java) |
 | 1020 | Encoding | [problem/_1020/Main.java](hdu_acm/src/problem/_1020/Main.java) |
+| 1010 | Tempter of the Bone | [problem/_1010/Main.java](hdu_acm/src/problem/_1010/Main.java) |
 
 **待实现的复杂题目**（需要高级算法）：
 - 1006: Tick and Tock
 - 1007: Quoit Design (最近点对)
-- 1010: Tempter of the Bone (DFS)
 - 1011: Starship Troopers (树形DP)
 - 1015: Safecracker (暴力搜索)
 - 1016: Prime Ring Problem (回溯)
