@@ -10,23 +10,28 @@
 
 | 题号 | 题目 | 路径 |
 |------|------|------|
-| - | A+B Problem | [A/Main.java](hdu_acm/A/Main.java) |
-| - | Sum Problem | [Sum/Main.java](hdu_acm/Sum/Main.java) |
-| 1002 | A + B Problem II | [1002/Main.java](hdu_acm/1002/Main.java) |
+| - | A+B Problem | [problem/A/Main.java](hdu_acm/problem/A/Main.java) |
+| - | Sum Problem | [problem/Sum/Main.java](hdu_acm/problem/Sum/Main.java) |
+| 1002 | A + B Problem II | [problem/1002/Main.java](hdu_acm/problem/1002/Main.java) |
 
 ## 目录结构
 
-每个题目解答都存储在独立的子目录中，所有 Java 文件的类名均为 `Main`，通过不同的子目录来区分题目：
+每个题目解答都存储在独立的子目录中，所有 Java 文件的类名均为 `Main`，通过包路径来区分题目：
 
 ```
 hdu_acm/
-├── A/          # A+B 问题
-│   └── Main.java
-├── Sum/        # 求和问题
-│   └── Main.java
-└── 1002/       # 大数加法问题
-    └── Main.java
+└── problem/       # 所有题目解答
+    ├── A/          # A+B 问题
+    │   └── Main.java
+    ├── Sum/        # 求和问题
+    │   └── Main.java
+    └── 1002/       # 大数加法问题
+        └── Main.java
 ```
+
+## 包路径规范
+
+所有题目解答使用统一的包路径规范：`hdu_acm.problem.{题号或题目名}`，避免类名冲突。
 
 ## 开发工具
 

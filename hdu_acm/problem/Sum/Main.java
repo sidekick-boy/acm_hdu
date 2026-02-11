@@ -1,3 +1,5 @@
+package hdu_acm.problem.Sum;
+
 import java.util.Scanner;
 
 /**

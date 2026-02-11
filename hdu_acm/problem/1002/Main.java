@@ -1,3 +1,5 @@
+package hdu_acm.problem._1002;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
